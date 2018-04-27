@@ -17,6 +17,8 @@ body {
   height: 540px;
   top: 0px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   #wrapper-desktop #d-left {
     background-image: url(../assets/images/BG_Grad2.jpg);
@@ -30,7 +32,8 @@ body {
     width: calc( (100% - 950px) / 2);
     background-size: cover;
     background-position: 100% 50%;
-    transform: rotate(180deg); }
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
   #wrapper-desktop #d-interactive-container {
     position: relative;
     height: 540px;
@@ -50,8 +53,10 @@ body {
       font-size: 10px;
       background-color: black;
       padding: 20px 40px;
-      box-sizing: border-box;
-      clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+              clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
       font-family: 'Gotham Book';
       text-transform: uppercase;
       -webkit-font-smoothing: antialiased;
@@ -60,23 +65,27 @@ body {
       top: 100px;
       left: 460px;
       width: 380px;
+      background: -webkit-gradient(linear, left top, right top, from(black), to(#3d3d3d));
       background: linear-gradient(to right, black 0%, #3d3d3d 100%); }
     #wrapper-desktop #d-interactive-container #d-1 {
       top: 330px;
       left: 156px;
       width: 340px;
       text-align: right;
+      background: -webkit-gradient(linear, right top, left top, from(black), to(#3d3d3d));
       background: linear-gradient(to left, black 0%, #3d3d3d 100%); }
     #wrapper-desktop #d-interactive-container #d-2 {
       top: 100px;
       left: 440px;
       width: 400px;
+      background: -webkit-gradient(linear, left top, right top, from(black), to(#3d3d3d));
       background: linear-gradient(to right, black 0%, #3d3d3d 100%); }
     #wrapper-desktop #d-interactive-container #d-3 {
       top: 330px;
       left: 118px;
       text-align: right;
       width: 380px;
+      background: -webkit-gradient(linear, right top, left top, from(black), to(#3d3d3d));
       background: linear-gradient(to left, black 0%, #3d3d3d 100%); }
     #wrapper-desktop #d-interactive-container #canvas {
       position: absolute;
@@ -95,7 +104,10 @@ body {
       background-image: url(../assets/images/hs.png);
       background-color: unset;
       border: unset;
-      user-select: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
       cursor: pointer;
       position: absolute; }
     #wrapper-desktop #d-interactive-container .close-btn-style {
@@ -107,7 +119,10 @@ body {
       background-image: url(../assets/images/cloneBtn.png);
       background-color: unset;
       border: unset;
-      user-select: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
       cursor: pointer;
       position: absolute;
       z-index: 99999;
