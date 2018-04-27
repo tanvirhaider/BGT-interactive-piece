@@ -1,0 +1,19 @@
+
+
+
+
+@mixin breakpoint($class) {
+  @if $class == small {
+    @media (max-width: 704px) { @content; }
+  }
+
+  @else if $class == large {
+    @media all and (min-width: 705px) { @content; }
+  }
+ 
+  @else {
+    @warn "Breakpoint mixin supports: small, medium, large, portrait, landscape";
+  }
+}
+
+

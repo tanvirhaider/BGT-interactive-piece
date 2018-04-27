@@ -1,0 +1,7 @@
+@media (max-width: 704px) {
+  #interactive-elements #wrapper-desktop {
+    display: none; } }
+
+@media all and (min-width: 705px) {
+  #interactive-elements #wrapper-mobile {
+    display: none; } }

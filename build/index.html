@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Interactive Golf Item</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main-desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main-mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div id="interactive-elements">
+        <div id="wrapper-desktop">
+            <div id="d-left"></div>
+            <div id="d-interactive-container">
+                <canvas id="canvas"></canvas>
+                <div class="btn-style" id="hs-0"></div>
+                <div class="btn-style" id="hs-1"></div>
+                <div class="btn-style" id="hs-2"></div>
+                <div class="btn-style" id="hs-3"></div>
+                <div class="close-btn-style" id="closeBtn-0"></div>
+                <div class="close-btn-style" id="closeBtn-1"></div>
+                <div class="close-btn-style" id="closeBtn-2"></div>
+                <div class="close-btn-style" id="closeBtn-3"></div>
+                <div class="description" id="d-0">Steel tip section is typical to almost all</br>putters allowing connection to any putter</div>
+                <div class="description" id="d-1">7075 Aluminum coupler securely joins</br>graphite section to steel tip</div>
+                <div class="description" id="d-2">Extruded high-strength 6063 aluminum insert to</br>flexurally- reinforce the shaft in the desired bend</br>region centered on or near 14”</div>
+                <div class="description" id="d-3">Parallel, super-stiff .60OD graphite tube for</br>increased torsional and flexural rigidity.</br>46T high modulus material</div>
+            </div>
+            <div id="d-right"></div>
+        </div>
+            
+        <div id="wrapper-mobile">
+            <div id="m-left"></div>
+            <div id="m-interactive-container">
+                <canvas id="canvas-m"></canvas>
+                <div class="btn-style" id="m-hs-0"></div>
+                <div class="btn-style" id="m-hs-1"></div>
+                <div class="btn-style" id="m-hs-2"></div>
+                <div class="btn-style" id="m-hs-3"></div>
+                <div class="close-btn-style" id="m-closeBtn-0"></div>
+                <div class="close-btn-style" id="m-closeBtn-1"></div>
+                <div class="close-btn-style" id="m-closeBtn-2"></div>
+                <div class="close-btn-style" id="m-closeBtn-3"></div>
+                <div class="description" id="m-d-0">Steel tip section is typical to almost all</br>putters allowing connection to any putter</div>
+                <div class="description" id="m-d-1">7075 Aluminum coupler securely</br>joins graphite section to steel tip</div>
+                <div class="description" id="m-d-2">Extruded high-strength 6063 aluminum</br>insert to flexurally- reinforce</br>the shaft in the desired bend region</br>centered on or near 14”</div>
+                <div class="description" id="m-d-3">Parallel, super-stiff .60OD graphite</br>tube for increased torsional and flexural</br>rigidity. 46T high modulus material</div>
+            </div>
+            <div id="m-right"></div>
+        </div>
+    </div>
+ 
+   
+    <script src="js/d-app-min.js"></script>
+    <script src="js/m-app-min.js"></script>
+</body>
+
+
+</html>

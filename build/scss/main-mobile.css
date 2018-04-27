@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("../assets/fonts/Gotham-Book.eot");
+  src: url("../assets/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Gotham-Book.woff2") format("woff2"), url("../assets/fonts/Gotham-Book.woff") format("woff"), url("../assets/fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #b8b1b1;
+  margin: 0px; }
+
+#wrapper-mobile {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 576px;
+  top: 0px;
+  background-color: black;
+  overflow: hidden; }
+  #wrapper-mobile #m-interactive-container {
+    position: absolute;
+    height: 576px;
+    width: 324px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    line-height: 18px;
+    display: none; }
+    #wrapper-mobile #m-interactive-container .description {
+      height: auto;
+      position: absolute;
+      color: white;
+      font-size: 11px;
+      background-color: black;
+      padding: 20px 0px;
+      box-sizing: border-box;
+      font-family: 'Gotham Book';
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+      visibility: hidden;
+      bottom: 30px;
+      left: 0px;
+      width: 100%;
+      text-align: center; }
+    #wrapper-mobile #m-interactive-container #canvas-m {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden !important; }
+    #wrapper-mobile #m-interactive-container .btn-style {
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 50% 50%;
+      background-image: url(../assets/images/hs.png);
+      background-color: unset;
+      border: unset;
+      user-select: none;
+      cursor: pointer;
+      position: absolute; }
+    #wrapper-mobile #m-interactive-container .close-btn-style {
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 50% 50%;
+      background-image: url(../assets/images/cloneBtn.png);
+      background-color: unset;
+      border: unset;
+      user-select: none;
+      cursor: pointer;
+      position: absolute;
+      z-index: 99999;
+      visibility: hidden;
+      top: 30px;
+      right: 30px; }
+    #wrapper-mobile #m-interactive-container #m-hs-0 {
+      top: 365px;
+      left: 199px; }
+    #wrapper-mobile #m-interactive-container #m-hs-1 {
+      top: 312px;
+      left: 99px; }
+    #wrapper-mobile #m-interactive-container #m-hs-2 {
+      top: 237px;
+      left: 142px; }
+    #wrapper-mobile #m-interactive-container #m-hs-3 {
+      top: 210px;
+      left: 36px; }
+
+.placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #242323;
+  color: #757575;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  line-height: 15px; }

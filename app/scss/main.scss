@@ -1,0 +1,17 @@
+
+@import 'mixin';
+
+#interactive-elements {
+    @include breakpoint(small) {
+        #wrapper-desktop {
+            display: none;
+        }
+    }
+
+    @include breakpoint(large) {
+        #wrapper-mobile {
+            display: none;
+        }
+    }
+}
+
