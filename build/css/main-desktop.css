@@ -6,7 +6,6 @@
   font-style: normal; }
 
 body {
-  background: #b8b1b1;
   margin: 0px; }
 
 #wrapper-desktop {
@@ -16,24 +15,7 @@ body {
   width: 100%;
   height: 540px;
   top: 0px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  #wrapper-desktop #d-left {
-    background-image: url(../assets/images/BG_Grad2.jpg);
-    height: 100%;
-    width: calc( (100% - 950px) / 2);
-    background-size: cover;
-    background-position: 100% 50%; }
-  #wrapper-desktop #d-right {
-    background-image: url(../assets/images/BG_Grad2.jpg);
-    height: 100%;
-    width: calc( (100% - 950px) / 2);
-    background-size: cover;
-    background-position: 100% 50%;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); }
+  overflow: hidden; }
   #wrapper-desktop #d-interactive-container {
     position: relative;
     height: 540px;
@@ -51,42 +33,39 @@ body {
       position: absolute;
       color: white;
       font-size: 10px;
+      line-height: 16px;
       background-color: black;
-      padding: 20px 40px;
+      padding: 13px 25px;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
-      -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
-              clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
       font-family: 'Gotham Book';
       text-transform: uppercase;
       -webkit-font-smoothing: antialiased;
       visibility: hidden; }
     #wrapper-desktop #d-interactive-container #d-0 {
       top: 100px;
-      left: 460px;
-      width: 380px;
-      background: -webkit-gradient(linear, left top, right top, from(black), to(#3d3d3d));
-      background: linear-gradient(to right, black 0%, #3d3d3d 100%); }
+      left: 505px;
+      width: 330px;
+      background: -webkit-gradient(linear, left top, right top, from(#656565), to(#4d4d4d));
+      background: linear-gradient(to right, #656565 0%, #4d4d4d 100%); }
     #wrapper-desktop #d-interactive-container #d-1 {
       top: 330px;
-      left: 156px;
-      width: 340px;
-      text-align: right;
-      background: -webkit-gradient(linear, right top, left top, from(black), to(#3d3d3d));
-      background: linear-gradient(to left, black 0%, #3d3d3d 100%); }
+      left: 192px;
+      width: 300px;
+      background: -webkit-gradient(linear, left top, right top, from(#656565), to(#4d4d4d));
+      background: linear-gradient(to right, #656565 0%, #4d4d4d 100%); }
     #wrapper-desktop #d-interactive-container #d-2 {
       top: 100px;
-      left: 440px;
-      width: 400px;
-      background: -webkit-gradient(linear, left top, right top, from(black), to(#3d3d3d));
-      background: linear-gradient(to right, black 0%, #3d3d3d 100%); }
+      left: 535px;
+      width: 300px;
+      background: -webkit-gradient(linear, left top, right top, from(#656565), to(#4d4d4d));
+      background: linear-gradient(to right, #656565 0%, #4d4d4d 100%); }
     #wrapper-desktop #d-interactive-container #d-3 {
       top: 330px;
-      left: 118px;
-      text-align: right;
-      width: 380px;
-      background: -webkit-gradient(linear, right top, left top, from(black), to(#3d3d3d));
-      background: linear-gradient(to left, black 0%, #3d3d3d 100%); }
+      left: 142px;
+      width: 350px;
+      background: -webkit-gradient(linear, left top, right top, from(#656565), to(#4d4d4d));
+      background: linear-gradient(to right, #656565 0%, #4d4d4d 100%); }
     #wrapper-desktop #d-interactive-container #canvas {
       position: absolute;
       left: 0px;

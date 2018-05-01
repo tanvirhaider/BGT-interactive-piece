@@ -167,7 +167,7 @@ function openPanel (itemNumber) {
 
     var currentDescription = document.getElementById("d-" + itemNumber);
     currentDescription.style.visibility = "visible";
-    TweenMax.fromTo(currentDescription,0.5,{alpha:0,x:"+5"},{delay:1,alpha:1,x:"-5"});
+    TweenMax.fromTo(currentDescription,0.5,{alpha:0,x:"+5"},{delay:1,alpha:1,x:"-15"});
 
     if (selectedHS == undefined) {
         selectedHS = itemNumber;

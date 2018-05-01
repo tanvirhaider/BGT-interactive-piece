@@ -6,7 +6,6 @@
   font-style: normal; }
 
 body {
-  background: #b8b1b1;
   margin: 0px; }
 
 #wrapper-mobile {
@@ -16,26 +15,8 @@ body {
   width: 100%;
   height: 576px;
   top: 0px;
-  background-image: url(../assets/images/BG_Grad2.jpg);
   background-size: 100%;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  #wrapper-mobile #m-left {
-    background-image: url(../assets/images/BG_Grad2.jpg);
-    height: 100%;
-    width: calc( (100% - 320px) / 2);
-    background-size: cover;
-    background-position: 100% 50%; }
-  #wrapper-mobile #m-right {
-    background-image: url(../assets/images/BG_Grad2.jpg);
-    height: 100%;
-    width: calc( (100% - 320px) / 2);
-    background-size: cover;
-    background-position: 100% 50%;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); }
+  overflow: hidden; }
   #wrapper-mobile #m-interactive-container {
     position: relative;
     height: 576px;
@@ -53,15 +34,16 @@ body {
       position: absolute;
       color: white;
       font-size: 11px;
-      background-color: black;
-      padding: 20px 0px;
+      background: -webkit-gradient(linear, left top, right top, from(#656565), to(#4d4d4d));
+      background: linear-gradient(to right, #656565 0%, #4d4d4d 100%);
+      padding: 15px 0px;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       font-family: 'Gotham Book';
       text-transform: uppercase;
       -webkit-font-smoothing: antialiased;
       visibility: hidden;
-      bottom: 30px;
+      bottom: 10px;
       left: 0px;
       width: 100%;
       text-align: center; }
