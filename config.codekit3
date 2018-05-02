@@ -37,17 +37,6 @@
 		"oAP": "\/build\/assets\/fonts\/Gotham-Book.woff2",
 		"oF": 0
 		},
-	"\/app\/assets\/images\/BG_Grad2.jpg": {
-		"ft": 16384,
-		"iS": 261641,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/BG_Grad2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/app\/assets\/images\/cloneBtn.png": {
 		"ft": 32768,
 		"iS": 7796,
@@ -59,15 +48,48 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/dos.jpg": {
+	"\/app\/assets\/images\/desktop-set1.jpg": {
 		"ft": 16384,
-		"iS": 506385,
+		"iS": 3149728,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/dos.jpg",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/desktop-set1.jpg",
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/app\/assets\/images\/desktop-set2.jpg": {
+		"ft": 16384,
+		"iS": 4289597,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/desktop-set2.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/app\/assets\/images\/desktop-set3.jpg": {
+		"ft": 16384,
+		"iS": 4756687,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/desktop-set3.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/app\/assets\/images\/desktop-set4.jpg": {
+		"ft": 16384,
+		"iS": 5293706,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/desktop-set4.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/assets\/images\/hs.png": {
@@ -81,81 +103,48 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/Mdos.jpg": {
+	"\/app\/assets\/images\/mobile-set1.jpg": {
 		"ft": 16384,
-		"iS": 108377,
+		"iS": 1435228,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/Mdos.jpg",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/mobile-set1.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/Mquatro.jpg": {
+	"\/app\/assets\/images\/mobile-set2.jpg": {
 		"ft": 16384,
-		"iS": 193454,
+		"iS": 1630948,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/Mquatro.jpg",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/mobile-set2.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/Mtres.jpg": {
+	"\/app\/assets\/images\/mobile-set3.jpg": {
 		"ft": 16384,
-		"iS": 162332,
+		"iS": 1650775,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/Mtres.jpg",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/mobile-set3.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/Muno.jpg": {
+	"\/app\/assets\/images\/mobile-set4.jpg": {
 		"ft": 16384,
-		"iS": 104916,
+		"iS": 1776209,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/Muno.jpg",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/images\/mobile-set4.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/app\/assets\/images\/quatro.jpg": {
-		"ft": 16384,
-		"iS": 1057391,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/quatro.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/app\/assets\/images\/setUno.jpg": {
-		"ft": 16384,
-		"iS": 423886,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/setUno.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/app\/assets\/images\/tres.jpg": {
-		"ft": 16384,
-		"iS": 635091,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/tres.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/app\/index.html": {

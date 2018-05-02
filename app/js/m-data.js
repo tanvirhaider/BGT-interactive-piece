@@ -1,5 +1,4 @@
-var Muno = [
-
+var M_1 = [
     {
         "filename": "BGT_iphone__00030.jpg",
         "frame": {"x":1,"y":1,"w":324,"h":576},
@@ -288,8 +287,8 @@ var Muno = [
         "sourceSize": {"w":324,"h":576},
         "pivot": {"x":0.5,"y":0.5}
     }];
-
-    var Mdos = [
+    
+    var M_2 = [
         {
             "filename": "BGT_iphone__00160.jpg",
             "frame": {"x":1,"y":1,"w":324,"h":576},
@@ -372,7 +371,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00171.jpg",
+            "filename": "BGT_iphone__00169.jpg",
             "frame": {"x":979,"y":1,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -381,7 +380,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00172.jpg",
+            "filename": "BGT_iphone__00170.jpg",
             "frame": {"x":979,"y":579,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -390,7 +389,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00173.jpg",
+            "filename": "BGT_iphone__00171.jpg",
             "frame": {"x":979,"y":1157,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -399,7 +398,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00174.jpg",
+            "filename": "BGT_iphone__00172.jpg",
             "frame": {"x":1305,"y":1,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -408,7 +407,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00175.jpg",
+            "filename": "BGT_iphone__00173.jpg",
             "frame": {"x":1305,"y":579,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -417,7 +416,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00176.jpg",
+            "filename": "BGT_iphone__00174.jpg",
             "frame": {"x":1305,"y":1157,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -426,7 +425,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00177.jpg",
+            "filename": "BGT_iphone__00175.jpg",
             "frame": {"x":1631,"y":1,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -435,7 +434,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00178.jpg",
+            "filename": "BGT_iphone__00176.jpg",
             "frame": {"x":1631,"y":579,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -444,7 +443,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00179.jpg",
+            "filename": "BGT_iphone__00177.jpg",
             "frame": {"x":1631,"y":1157,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -453,7 +452,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00180.jpg",
+            "filename": "BGT_iphone__00178.jpg",
             "frame": {"x":1957,"y":1,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -462,7 +461,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00181.jpg",
+            "filename": "BGT_iphone__00180.jpg",
             "frame": {"x":1957,"y":579,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -471,7 +470,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00182.jpg",
+            "filename": "BGT_iphone__00181.jpg",
             "frame": {"x":1957,"y":1157,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -480,7 +479,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00184.jpg",
+            "filename": "BGT_iphone__00183.jpg",
             "frame": {"x":2283,"y":1,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -489,7 +488,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00185.jpg",
+            "filename": "BGT_iphone__00184.jpg",
             "frame": {"x":2283,"y":579,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -498,7 +497,7 @@ var Muno = [
             "pivot": {"x":0.5,"y":0.5}
         },
         {
-            "filename": "BGT_iphone__00186.jpg",
+            "filename": "BGT_iphone__00185.jpg",
             "frame": {"x":2283,"y":1157,"w":324,"h":576},
             "rotated": false,
             "trimmed": false,
@@ -614,8 +613,10 @@ var Muno = [
             "sourceSize": {"w":324,"h":576},
             "pivot": {"x":0.5,"y":0.5}
         }];
+        
 
-        var Mtres = [
+        var M_3 = [
+
             {
                 "filename": "BGT_iphone__00290.jpg",
                 "frame": {"x":1,"y":1,"w":324,"h":576},
@@ -644,7 +645,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00296.jpg",
+                "filename": "BGT_iphone__00293.jpg",
                 "frame": {"x":327,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -653,7 +654,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00297.jpg",
+                "filename": "BGT_iphone__00294.jpg",
                 "frame": {"x":327,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -662,7 +663,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00298.jpg",
+                "filename": "BGT_iphone__00296.jpg",
                 "frame": {"x":327,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -671,7 +672,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00300.jpg",
+                "filename": "BGT_iphone__00298.jpg",
                 "frame": {"x":653,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -680,7 +681,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00303.jpg",
+                "filename": "BGT_iphone__00299.jpg",
                 "frame": {"x":653,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -689,7 +690,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00304.jpg",
+                "filename": "BGT_iphone__00300.jpg",
                 "frame": {"x":653,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -698,7 +699,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00305.jpg",
+                "filename": "BGT_iphone__00304.jpg",
                 "frame": {"x":979,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -716,7 +717,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00308.jpg",
+                "filename": "BGT_iphone__00307.jpg",
                 "frame": {"x":979,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -752,7 +753,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00312.jpg",
+                "filename": "BGT_iphone__00313.jpg",
                 "frame": {"x":1631,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -761,7 +762,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00313.jpg",
+                "filename": "BGT_iphone__00314.jpg",
                 "frame": {"x":1631,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -770,7 +771,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00314.jpg",
+                "filename": "BGT_iphone__00315.jpg",
                 "frame": {"x":1631,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -779,7 +780,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00315.jpg",
+                "filename": "BGT_iphone__00317.jpg",
                 "frame": {"x":1957,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -788,7 +789,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00317.jpg",
+                "filename": "BGT_iphone__00318.jpg",
                 "frame": {"x":1957,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -797,7 +798,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00318.jpg",
+                "filename": "BGT_iphone__00319.jpg",
                 "frame": {"x":1957,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -806,7 +807,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00319.jpg",
+                "filename": "BGT_iphone__00321.jpg",
                 "frame": {"x":2283,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -815,7 +816,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00320.jpg",
+                "filename": "BGT_iphone__00322.jpg",
                 "frame": {"x":2283,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -824,7 +825,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00321.jpg",
+                "filename": "BGT_iphone__00323.jpg",
                 "frame": {"x":2283,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -833,7 +834,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00322.jpg",
+                "filename": "BGT_iphone__00324.jpg",
                 "frame": {"x":2609,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -842,7 +843,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00323.jpg",
+                "filename": "BGT_iphone__00325.jpg",
                 "frame": {"x":2935,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -851,7 +852,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00324.jpg",
+                "filename": "BGT_iphone__00327.jpg",
                 "frame": {"x":3261,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -860,7 +861,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00325.jpg",
+                "filename": "BGT_iphone__00328.jpg",
                 "frame": {"x":3587,"y":1,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -869,7 +870,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00326.jpg",
+                "filename": "BGT_iphone__00329.jpg",
                 "frame": {"x":2609,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -878,7 +879,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00327.jpg",
+                "filename": "BGT_iphone__00330.jpg",
                 "frame": {"x":2609,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -887,7 +888,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00328.jpg",
+                "filename": "BGT_iphone__00331.jpg",
                 "frame": {"x":2935,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -896,7 +897,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00329.jpg",
+                "filename": "BGT_iphone__00332.jpg",
                 "frame": {"x":2935,"y":1157,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -905,7 +906,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00330.jpg",
+                "filename": "BGT_iphone__00333.jpg",
                 "frame": {"x":3261,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -914,7 +915,7 @@ var Muno = [
                 "pivot": {"x":0.5,"y":0.5}
             },
             {
-                "filename": "BGT_iphone__00332.jpg",
+                "filename": "BGT_iphone__00334.jpg",
                 "frame": {"x":3587,"y":579,"w":324,"h":576},
                 "rotated": false,
                 "trimmed": false,
@@ -940,8 +941,10 @@ var Muno = [
                 "sourceSize": {"w":324,"h":576},
                 "pivot": {"x":0.5,"y":0.5}
             }];
+            
 
-            var Mquatro = [
+            var M_4 = [
+
                 {
                     "filename": "BGT_iphone__00420.jpg",
                     "frame": {"x":1,"y":1,"w":324,"h":576},
@@ -970,7 +973,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00425.jpg",
+                    "filename": "BGT_iphone__00424.jpg",
                     "frame": {"x":327,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -979,7 +982,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00427.jpg",
+                    "filename": "BGT_iphone__00425.jpg",
                     "frame": {"x":327,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -988,7 +991,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00429.jpg",
+                    "filename": "BGT_iphone__00427.jpg",
                     "frame": {"x":327,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -997,7 +1000,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00431.jpg",
+                    "filename": "BGT_iphone__00429.jpg",
                     "frame": {"x":653,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1006,7 +1009,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00432.jpg",
+                    "filename": "BGT_iphone__00431.jpg",
                     "frame": {"x":653,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1015,7 +1018,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00433.jpg",
+                    "filename": "BGT_iphone__00432.jpg",
                     "frame": {"x":653,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1033,7 +1036,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00435.jpg",
+                    "filename": "BGT_iphone__00436.jpg",
                     "frame": {"x":979,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1060,7 +1063,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00439.jpg",
+                    "filename": "BGT_iphone__00440.jpg",
                     "frame": {"x":1305,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1069,7 +1072,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00440.jpg",
+                    "filename": "BGT_iphone__00441.jpg",
                     "frame": {"x":1305,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1078,7 +1081,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00441.jpg",
+                    "filename": "BGT_iphone__00443.jpg",
                     "frame": {"x":1631,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1087,7 +1090,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00442.jpg",
+                    "filename": "BGT_iphone__00444.jpg",
                     "frame": {"x":1631,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1096,7 +1099,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00444.jpg",
+                    "filename": "BGT_iphone__00445.jpg",
                     "frame": {"x":1631,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1105,7 +1108,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00445.jpg",
+                    "filename": "BGT_iphone__00446.jpg",
                     "frame": {"x":1957,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1114,7 +1117,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00446.jpg",
+                    "filename": "BGT_iphone__00448.jpg",
                     "frame": {"x":1957,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1123,7 +1126,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00447.jpg",
+                    "filename": "BGT_iphone__00449.jpg",
                     "frame": {"x":1957,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1132,7 +1135,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00448.jpg",
+                    "filename": "BGT_iphone__00450.jpg",
                     "frame": {"x":2283,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1141,7 +1144,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00450.jpg",
+                    "filename": "BGT_iphone__00452.jpg",
                     "frame": {"x":2283,"y":579,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1150,7 +1153,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00451.jpg",
+                    "filename": "BGT_iphone__00453.jpg",
                     "frame": {"x":2283,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1159,7 +1162,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00452.jpg",
+                    "filename": "BGT_iphone__00454.jpg",
                     "frame": {"x":2609,"y":1,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,
@@ -1204,7 +1207,7 @@ var Muno = [
                     "pivot": {"x":0.5,"y":0.5}
                 },
                 {
-                    "filename": "BGT_iphone__00460.jpg",
+                    "filename": "BGT_iphone__00461.jpg",
                     "frame": {"x":2609,"y":1157,"w":324,"h":576},
                     "rotated": false,
                     "trimmed": false,

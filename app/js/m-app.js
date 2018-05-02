@@ -2,7 +2,7 @@
 // @codekit-prepend "m-data.js"
 
 var MselectedHS = undefined;
-var mImgList = [["./assets/images/Muno.jpg",Muno],["./assets/images/Mdos.jpg",Mdos],["./assets/images/Mtres.jpg",Mtres],["./assets/images/Mquatro.jpg",Mquatro]];
+var mImgList = [["./assets/images/mobile-set1.jpg",M_1],["./assets/images/mobile-set2.jpg",M_2],["./assets/images/mobile-set3.jpg",M_3],["./assets/images/mobile-set4.jpg",M_4]];
 var unitWidth = 324;
 var unitHeight = 576;
 TweenLite.defaultEase = Linear.easeNone;

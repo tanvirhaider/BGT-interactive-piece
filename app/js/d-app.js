@@ -51,7 +51,7 @@
 
 
 var selectedHS = undefined;
-var imgList = [["./assets/images/setUno.jpg",frames],["./assets/images/dos.jpg",dos],["./assets/images/tres.jpg",tres],["./assets/images/quatro.jpg",quatro]];
+var imgList = [["./assets/images/desktop-set1.jpg",D_1],["./assets/images/desktop-set2.jpg",D_2],["./assets/images/desktop-set3.jpg",D_3],["./assets/images/desktop-set4.jpg",D_4]];
 TweenLite.defaultEase = Linear.easeNone;
 var canvas = document.querySelector("#canvas");
 var context = canvas.getContext("2d");
