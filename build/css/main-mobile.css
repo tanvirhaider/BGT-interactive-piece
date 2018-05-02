@@ -22,8 +22,6 @@ body {
     height: 576px;
     width: 324px;
     top: 0px;
-    left: 0px;
-    right: 0px;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
@@ -47,6 +45,8 @@ body {
       left: 0px;
       width: 100%;
       text-align: center; }
+    #wrapper-mobile #m-interactive-container #m-d-3 {
+      font-size: 10px; }
     #wrapper-mobile #m-interactive-container #canvas-m {
       position: absolute;
       left: 0px;
