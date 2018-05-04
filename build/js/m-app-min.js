@@ -1371,7 +1371,6 @@ function mresize() {
     mContext.scale(mresolution, mresolution);
 }
 
-thisThisM (0,mImgList[0][0],mImgList[0][1],0,0,undefined);
 
 
 
@@ -1451,7 +1450,8 @@ function startMobile () {
         })(mImgList[i][0], promises[i] = $.Deferred());
         }
         $.when.apply($, promises).done(function() {
-        letsGetStarted ();
+            letsGetStarted ();
+            thisThisM (0,mImgList[0][0],mImgList[0][1],0,0,undefined);
         });
     
         function letsGetStarted () {

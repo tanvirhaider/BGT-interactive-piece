@@ -1743,7 +1743,7 @@ function resize() {
     context.scale(resolution, resolution);
 }
 
-tweenThis (0,imgList[0][0],imgList[0][1],0,0,undefined);
+
 
 
 
@@ -1825,6 +1825,7 @@ function startDesktop () {
         }
         $.when.apply($, promises).done(function() {
         letsGetStarted ();
+        tweenThis (0,imgList[0][0],imgList[0][1],0,0,undefined);
         });
     
         function letsGetStarted () {
